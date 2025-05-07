@@ -30,6 +30,7 @@ select {
 input {
     border: none;
     background: white;
+    min-width: 5em;
 }
 
 input:hover {
