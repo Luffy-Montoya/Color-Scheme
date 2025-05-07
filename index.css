@@ -18,6 +18,7 @@ button {
     border-radius: 5px;
     border: 1.5px solid rgb(215,215,215);
     height: 2.5em;
+    font-size: 1rem;
 }
 
 select {
