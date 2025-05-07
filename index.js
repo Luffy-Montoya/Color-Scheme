@@ -37,7 +37,6 @@ function renderColors(data) {
     baseSplotch()
 }
 
-
 fetch(`https://www.thecolorapi.com/scheme?hex=${baseColor.value.replace("#", "")}&count=${count.value}&mode=${mode.value}`)
     .then(res => res.json())
     .then(data => renderColors(data))
