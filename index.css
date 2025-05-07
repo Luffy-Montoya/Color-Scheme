@@ -78,6 +78,7 @@ button:active {
     align-items: center;
     font-size: 1.25rem;
     height: 8vh;
+    margin-top: .4vh;
 }
 
 #hex-number{
