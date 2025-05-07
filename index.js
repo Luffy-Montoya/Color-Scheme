@@ -10,8 +10,7 @@ let htmlContent = ""
 
 function baseSplotch() {
     hexNumber.textContent = `Base ${baseColor.value.toUpperCase()}`
-    splotch1.style.background = baseColor.value
-    splotch2.style.background = baseColor.value
+    splotch1.style.background = splotch2.style.background = baseColor.value
 }
 
 function renderColors(data) {
