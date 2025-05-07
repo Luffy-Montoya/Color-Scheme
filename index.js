@@ -31,8 +31,7 @@ function renderColors(data) {
         color.style.backgroundColor = hex
         color.addEventListener("click", function(){
             hexNumber.textContent = `${hex}`
-            splotch1.style.background = hex
-            splotch2.style.background = hex
+            splotch1.style.background = splotch2.style.background = hex
         })  
     }
 
