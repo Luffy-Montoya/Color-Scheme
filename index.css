@@ -62,7 +62,7 @@ button:active {
     display: flex;
     margin-top: 1.5vh;
     border-right: 1px solid black;
-    height: calc(70vh - 2.25em);
+    height: calc(72vh - 2.25em);
 }
 
 .color-box {
