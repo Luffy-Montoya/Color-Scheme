@@ -91,6 +91,7 @@ button:active {
     border-radius: 4px;
     border: .5px solid rgb(0,0,0,0.25);
     cursor: pointer;
+    max-height: 2.5em;
 }
 
 @media (min-width: 1000px) {
@@ -112,12 +113,13 @@ button:active {
         height: calc(15vh - 2.25rem);
     }
 
-    .splotch {
-        max-height: 2.5em;
-    }
 }
 
-@media (min-width: 500px) and (max-width:1000px) {
+@media (min-width: 600px) and (max-width:1000px) {
+
+    form {
+        padding: 1.5vh 6vw 0 6vw;
+    }
 
     #scheme-container {
         height: calc(69vh - 2.25rem);
