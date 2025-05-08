@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    max-width: 500px;
+    max-width: calc(500px + 30vw);
     width: 100%;
     font-family: sans-serif;
 }
@@ -90,4 +90,23 @@ button:active {
     border-radius: 4px;
     border: .5px solid rgb(0,0,0,0.25);
     cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+    body {
+        max-width: calc(500px + 15vw);
+        height: 100vw;
+    }
+
+    #scheme-container {
+        height: calc(85vh - 2.25rem);
+    }
+
+    #hex-container {
+        height: calc(15vh - 2.25rem);
+    }
+
+    .splotch {
+        max-height: 3em;
+    }
 }
