@@ -118,7 +118,7 @@ button:active {
 @media (min-width: 600px) and (max-width:1000px) {
 
     form {
-        padding: 1.5vh 15vw 0 15vw;
+        padding: 1.5vh 13vw 0 13vw;
     }
 
     #scheme-container {
