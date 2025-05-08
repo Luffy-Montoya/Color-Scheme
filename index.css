@@ -1,8 +1,9 @@
 body {
     margin: 0 auto;
-    max-width: calc(500px + 15vw);
+    max-width: calc(500px + 20vw);
     width: 100%;
     font-family: sans-serif;
+    background: rgb(252,252,252);
 }
 
 form {
@@ -29,7 +30,7 @@ select {
 
 input {
     border: none;
-    background: white;
+    background: rgb(250,250,250);
     min-width: 3.5em;
 }
 
@@ -44,7 +45,7 @@ input:hover {
 
 button {
     margin-right: .2em;
-    background: rgb(247,247,247);
+    background: rgb(243,243,243);
 }
 
 button:hover {
