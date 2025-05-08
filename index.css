@@ -1,6 +1,6 @@
 body {
     margin: 0 auto;
-    max-width: calc(500px + 20vw);
+    max-width: calc(500px + 15vw);
     width: 100%;
     font-family: sans-serif;
 }
