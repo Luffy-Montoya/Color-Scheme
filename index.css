@@ -111,3 +111,13 @@ button:active {
         max-height: 3em;
     }
 }
+
+@media (min-width: 500px) and (max-width:1000px) {
+    #scheme-container {
+        height: calc(80vh - 2.25rem);
+    }
+
+    #hex-container {
+        height: calc(20vh - 2.25rem);
+    }
+}
