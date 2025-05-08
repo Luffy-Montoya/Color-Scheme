@@ -44,14 +44,14 @@ function renderColors(data) {
 function copyHex() {
     if (isHexBaseColor === true) {
         navigator.clipboard.writeText(hexNumber.textContent.replace("Base ", ""))
-        hexNumber.textContent = "Copied!"
+        hexNumber.textContent = "Copied"
         setTimeout(() => {
             hexNumber.textContent = `Base ${baseColor.value}`
         }, 750)
     } else {
         let tempText = hexNumber.textContent
         navigator.clipboard.writeText(hexNumber.textContent)
-        hexNumber.textContent = "Copied!"
+        hexNumber.textContent = "Copied"
         setTimeout(() => {
             hexNumber.textContent = tempText
         }, 750)
